@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+ul li {
+	list-style: none;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.first-screen,
+.about-us,
+.team,
+.tariff,
+.contact-us {
+	min-height: 100vh;
+}
+.section-title {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+.first-screen {
+	background-image: url('./images/bg.jpg');
+	background-position: right -50% bottom;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	position: relative;
+	padding: 200px 0;
+	text-align: center;
+	background-color: rgb(49, 155, 177);
+	color: #fff;
+}
+
+.first-screen h1 {
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+.first-screen__titles {
+	padding: 50px 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fd7272;
+}
+
+.menu a {
+	display: inline-block;
+	width: 18%;
+	padding: 20px 0;
+}
+.menu a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.about-us {
+	background-image: url('./images/about-bg.jpeg');
+	background-size: 50%;
+	background-repeat: repeat-y;
+	background-position: right;
+	text-align: left;
+}
+
+.about-us p {
+	padding-right: 50px;
+	margin-top: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.contact-us,
+.about-us {
+	padding: 100px;
+}
+.team,
+.tariff {
+	padding: 100px 0;
+}
+.team h2 {
+	text-align: center;
+}
+.teammates {
+	text-align: center;
+	margin-top: 40px;
+}
+.teammate {
+	display: inline-block;
+	width: 275px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.teammate img {
+	width: 100%;
+}
+.teammate h3 {
+	margin-top: 20px;
+}
+.teammate__socials {
+	margin-top: 30px;
+}
+.teammate a {
+	width: 40px;
+	display: inline-block;
+	height: 40px;
+	margin-right: 20px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.teammate a:hover {
+	transform: scale(1.1);
+	transition: 0.25s;
+}
+.teammate a:nth-child(1) {
+	background-image: url('images/twitter.png');
+}
+.teammate a:nth-child(2) {
+	background-image: url('images/facebook.png');
+}
+.teammate a:nth-child(3) {
+	background-image: url('images/vk.png');
+	margin-right: 0;
+}
+
+.tariff {
+	background-color: rgb(49, 155, 177);
+}
+.tariff h2 {
+	text-align: center;
+	color: #fff;
+}
+.tariff-plans {
+	text-align: center;
+}
+.tariff-plan {
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border: 5px solid transparent;
+}
+
+.tariff-plan_main {
+	border: 5px solid #fd7272;
+}
+.tariff-plan__name {
+	font-size: 2rem;
+	text-align: center;
+}
+.tariff-plan li {
+	padding: 20px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.tariff-plan .important {
+	font-weight: 700;
+}
+.tariff-plan li:last-child {
+	border: none;
+}
+.tariff-plan a {
+	display: inline-block;
+	background-color: #fd7272;
+	padding: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+}
+.tariff-plan .price {
+	font-size: 2rem;
+}
+.tariff-plan .period {
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.contact-us {
+	text-align: right;
+	background-image: url('./images/contact-us-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position-x: 5%;
+	background-position-y: 55%;
+}
+
+.contact-us form {
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	margin-top: 40px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+textarea {
+	resize: none;
+}
+input,
+textarea,
+button {
+	padding: 5px;
+	display: inline-block;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	margin: 10px 0px;
+}
+.contact-us button {
+	border: none;
+	cursor: pointer;
+	background-color: #fd7272;
+	padding: 20px 0px;
+	font-size: 1rem;
+	width: 50%;
+	text-transform: uppercase;
+	color: #fff;
+}
+.contact-us label {
+	color: rgba(0, 0, 0, 0.5);
+}
+footer {
+	padding: 40px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+}

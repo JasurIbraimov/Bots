@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+	.contact-us,
+	.about-us {
+		padding: 50px;
+	}
+	.about-us {
+		background-size: 25%;
+	}
+	.contact-us button {
+		width: 100%;
+	}
+	.menu a {
+		width: 30%;
+		padding: 10px 0;
+	}
+	.about-us p {
+		width: 75%;
+	}
+	.section-title {
+		font-size: 2rem;
+	}
+	.team,
+	.tariff {
+		padding: 50px 0;
+	}
+}
+
+@media (max-width: 525px) {
+	.menu {
+		position: static;
+		margin-bottom: 50px;
+	}
+	.menu a {
+		width: 100%;
+	}
+	.first-screen {
+		padding-top: 0;
+		background-size: 100%;
+	}
+	.about-us {
+		background-position: top;
+		background-repeat: repeat-x;
+		padding-top: 150px;
+		background-size: 50%;
+	}
+	.about-us p {
+		width: 100%;
+		padding-right: 0;
+	}
+	.contact-us {
+		background-position-x: center;
+		background-position-y: 20%;
+		background-size: 80%;
+	}
+	.contact-us h2 {
+		text-align: center;
+	}
+	.contact-us form {
+		width: 100%;
+		margin-top: 300px;
+	}
+}
+@media (max-width: 375px) {
+	.first-screen h1 {
+		font-size: 3rem;
+	}
+	.tariff-plan {
+		width: 90%;
+		margin: 0;
+		margin-top: 20px;
+	}
+	.contact-us form {
+		margin-top: 200px;
+	}
+	.teammates {
+		margin-top: 20px;
+	}
+	.contact-us {
+		padding: 50px 25px;
+	}
+	.team,
+	.tariff {
+		padding: 25px 0;
+	}
+	.about-us {
+		padding-bottom: 25px;
+		padding-top: 100px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+}
